@@ -1,0 +1,133 @@
+.best-car {
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        padding-top: 77px;
+        padding-bottom: 32px;
+    }
+
+    &__title {
+        @include font-style(24px, $ff-ExoSemiBold, 600, $color-white);
+        line-height: 33.6px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        margin-bottom: 48px;
+    }
+
+    &__model {
+        @include font-style(16px, $ff-ExoSemiBold, 600, $color-white);
+        line-height: 22.4px;
+    }
+
+    &__type {
+        @include font-style(13px, $ff-ExoRegular, 400, $color-text-grey);
+        line-height: 22.4px;
+    }
+
+    &__pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__features {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 94px;
+    }
+
+    &__feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &--icon {
+            border-radius: 100%;
+            width: 25px;
+            height: 25px;
+            background-color: $color-black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        &--number {
+            @include font-style(20px, $ff-ExoMedium, 500, $color-white);
+            line-height: 26.58px;
+            margin-bottom: 4px;
+        }
+
+        &--text {
+            @include font-style(10px, $ff-ExoRegular, 400, $text-color-light, uppercase);
+            line-height: 13.29px;
+        }
+    }
+
+    &__start {
+
+        @include font-style(13px, $ff-ExoMedium, 500, $color-white, uppercase);
+        line-height: 18.2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+            content: "";
+            border: 2px solid $color-border-ring;
+            filter: drop-shadow(0px 0px 16px $color-border-ring);
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            position: absolute;
+        }
+
+        &::after {
+            content: "";
+            border: 2px solid $color-border-ring;
+            filter: drop-shadow(0px 0px 16px $color-border-ring);
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            position: absolute;
+        }
+    }
+
+}
+
+
+.whiteflash1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -141px;
+    top: -59px;
+
+    background: rgba(55, 74, 109, 0.5);
+    filter: blur(90px);
+}
+
+.whiteflash2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 200px;
+    top: 317px;
+    background: rgba(55, 74, 109, 0.5);
+    filter: blur(90px);
+}

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elecar</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./library/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a class="logo__link" href="./index.html">
+                        <img class="logo__img" src="./images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="hamburger-menu">
+                    <input id="menu__hamburger" type="checkbox" />
+                    <label class="hamburger-menu__label" for="menu__hamburger">
+                        <span></span>
+                    </label>
+                    <ul class="hamburger-menu__items">
+                        <li><a class="hamburger-menu__item" href="#">Home</a></li>
+                        <li><a class="hamburger-menu__item" href="#">About</a></li>
+                        <li><a class="hamburger-menu__item" href="#">Popular</a></li>
+                        <li><a class="hamburger-menu__item" href="#">Featured</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <span class="whiteflash1"></span>
+        <span class="whiteflash2"></span>
+        <section class="best-car">
+            <div class="container">
+                <div class="best-car__inner">
+                    <div class="best-car__title">
+                        Choose The Best Car
+                    </div>
+                    <div class="best-car__content">
+                        <div class="best-car__model">
+                            Porsche Mission E
+                        </div>
+                        <div class="best-car__type">
+                            <img src="./images/bestcar/flash.svg" alt="flash">
+                            Electric car
+                        </div>
+                    </div>
+                    <div class="best-car__pic">
+                        <picture>
+                            <source srcset="./images/bestcar/mincar1x.png 1x, ./images/bestcar/mincar2x.png 2x"
+                                media="(max-width: 767px)">
+                            <source srcset="./images/bestcar/bigcar1x.jpg 1x, ./images/bestcar/bigcar2x.jpg 2x"
+                                media="(min-width: 768px)">
+                            <img src="./images/bestcar/bigcar1x.jpg" alt="pic">
+                        </picture>
+                    </div>
+                    <div class="best-car__features">
+                        <div class="best-car__feature">
+                            <div class="best-car__feature--icon">
+                                <img src="./images/bestcar/lamp.svg" alt="lamp">
+                            </div>
+                            <div class="best-car__feature--number">
+                                24&#176
+                            </div>
+                            <div class="best-car__feature--text">
+                                temperature
+                            </div>
+                        </div>
+                        <div class="best-car__feature">
+                            <div class="best-car__feature--icon">
+                                <img src="./images/bestcar/clock.svg" alt="clock">
+                            </div>
+                            <div class="best-car__feature--number">
+                                873
+                            </div>
+                            <div class="best-car__feature--text">
+                                mileage
+                            </div>
+                        </div>
+                        <div class="best-car__feature">
+                            <div class="best-car__feature--icon">
+                                <img src="./images/bestcar/flashwhite.svg" alt="flashwhite">
+                            </div>
+                            <div class="best-car__feature--number">
+                                94%
+                            </div>
+                            <div class="best-car__feature--text">
+                                battery
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-car__start">
+                        start
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about-pic">
+                        <picture>
+                            <source srcset="./images/about/about-mini.jpg" media="(max-width: 767px)">
+                            <source srcset="./images/about/about-big1x.jpg" media="(min-width: 768px)">
+                            <img src="./images/about/about-big1x.jpg" alt="pic">
+                        </picture>
+                        <div class="about-pic__content">
+                            <div class="about-pic__title">
+                                2.500+
+                            </div>
+                            <div class="about-pic__text">
+                                Supercharges placed along popular routes
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content__title">
+                            Machines With
+                            Future Technology
+                        </div>
+                        <div class="about-content__text">
+                            See the future with high-performance electric cars produced by renowned brands. They feature
+                            futuristic builds and designs with new and innovative platforms that last a long time.
+                        </div>
+                        <button class="about-content__btn">
+                            Know more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular-cars">
+            <div class="container">
+                <div class="popular-cars__inner">
+                    <div class="popular-cars__title">
+                        Choose Your Electric Car
+                        Of The Porsche Brand
+                    </div>
+                    <div class="popular-cars__cards">
+                        <div class="popular-cars__card">
+                            <div class="popular-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="popular-cars__card--subtitle">
+                                Turbo S
+                            </div>
+                            <div class="popular-cars__card--img">
+                                <img src="./images/slider/mini/1.png" alt="car">
+                            </div>
+                            <div class="popular-cars__card--charac">
+                                <div>
+                                    <img src="./images/slider/mini/speed.svg" alt="speed"><span> 3.7 Sec</span>
+                                </div>
+                                <div>
+                                    <img src="./images/slider/mini/graph.svg" alt="speed"><span> 356 Km/h</span>
+                                </div>
+                            </div>
+                            <div class="popular-cars__card--elec">
+                                <img src="./images/slider/mini/elec.svg" alt="graph"> Electric
+                            </div>
+                            <div class="popular-cars__card--price">
+                                $175,900
+                            </div>
+                            <div class="popular-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="popular-cars__card">
+                            <div class="popular-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="popular-cars__card--subtitle">
+                                Taycan
+                            </div>
+                            <div class="popular-cars__card--img">
+                                <img src="./images/slider/mini/2.png" alt="car">
+                            </div>
+                            <div class="popular-cars__card--charac">
+                                <div>
+                                    <img src="./images/slider/mini/speed.svg" alt="speed"><span> 3.7 Sec</span>
+                                </div>
+                                <div>
+                                    <img src="./images/slider/mini/graph.svg" alt="speed"><span> 356 Km/h</span>
+                                </div>
+                            </div>
+                            <div class="popular-cars__card--elec">
+                                <img src="./images/slider/mini/elec.svg" alt="graph"> Electric
+                            </div>
+                            <div class="popular-cars__card--price">
+                                $114,900
+                            </div>
+                            <div class="popular-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="popular-cars__card">
+                            <div class="popular-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="popular-cars__card--subtitle">
+                                Turbo S Cross
+                            </div>
+                            <div class="popular-cars__card--img">
+                                <img src="./images/slider/mini/3.png" alt="car">
+                            </div>
+                            <div class="popular-cars__card--charac">
+                                <div>
+                                    <img src="./images/slider/mini/speed.svg" alt="speed"><span> 3.7 Sec</span>
+                                </div>
+                                <div>
+                                    <img src="./images/slider/mini/graph.svg" alt="speed"><span> 356 Km/h</span>
+                                </div>
+                            </div>
+                            <div class="popular-cars__card--elec">
+                                <img src="./images/slider/mini/elec.svg" alt="graph"> Electric
+                            </div>
+                            <div class="popular-cars__card--price">
+                                $150,900
+                            </div>
+                            <div class="popular-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="popular-cars__card">
+                            <div class="popular-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="popular-cars__card--subtitle">
+                                Boxster 718
+                            </div>
+                            <div class="popular-cars__card--img">
+                                <img src="./images/slider/mini/4.png" alt="car">
+                            </div>
+                            <div class="popular-cars__card--charac">
+                                <div>
+                                    <img src="./images/slider/mini/speed.svg" alt="speed"><span> 3.7 Sec</span>
+                                </div>
+                                <div>
+                                    <img src="./images/slider/mini/graph.svg" alt="speed"><span> 356 Km/h</span>
+                                </div>
+                            </div>
+                            <div class="popular-cars__card--elec">
+                                <img src="./images/slider/mini/elec.svg" alt="graph"> Electric
+                            </div>
+                            <div class="popular-cars__card--price">
+                                $125,900
+                            </div>
+                            <div class="popular-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="popular-cars__card">
+                            <div class="popular-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="popular-cars__card--subtitle">
+                                Cayman
+                            </div>
+                            <div class="popular-cars__card--img">
+                                <img src="./images/slider/mini/5.png" alt="car">
+                            </div>
+                            <div class="popular-cars__card--charac">
+                                <div>
+                                    <img src="./images/slider/mini/speed.svg" alt="speed"><span> 3.7 Sec</span>
+                                </div>
+                                <div>
+                                    <img src="./images/slider/mini/graph.svg" alt="speed"><span> 356 Km/h</span>
+                                </div>
+                            </div>
+                            <div class="popular-cars__card--elec">
+                                <img src="./images/slider/mini/elec.svg" alt="graph"> Electric
+                            </div>
+                            <div class="popular-cars__card--price">
+                                $128,900
+                            </div>
+                            <div class="popular-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="features__inner">
+                    <div class="features__title">
+                        More Features
+                    </div>
+                    <div class="features__img">
+                        <picture>
+                            <source srcset="./images/features/car-mini.png" media="(max-width: 767px)">
+                            <source srcset="./images/features/car-big.png" media="(min-width: 768px)">
+                            <img src="./images/features/car-big.png" alt="car">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="luxury-cars">
+            <div class="container">
+                <div class="luxury-cars__inner">
+                    <div class="luxury-cars__title">
+                        Featured Luxury Cars
+                    </div>
+                    <div class="luxury-cars__brands">
+                        <div class="luxury-cars__brand">
+                            All
+                        </div>
+                        <div class="luxury-cars__brand">
+                            <img src="./images/brands/1.svg" alt="tesla">
+                        </div>
+                        <div class="luxury-cars__brand">
+                            <img src="./images/brands/2.svg" alt="audi">
+                        </div>
+                        <div class="luxury-cars__brand">
+                            <img src="./images/brands/3.svg" alt="porsche">
+                        </div>
+                    </div>
+                    <div class="luxury-cars__cards">
+                        <div class="luxury-cars__card">
+                            <div class="luxury-cars__card--title">
+                                Tesla
+                            </div>
+                            <div class="luxury-cars__card--subtitle">
+                                Model X
+                            </div>
+                            <div class="luxury-cars__card--img">
+                                <img src="./images/brands/cars/1.png" alt="car">
+                            </div>
+                            <div class="luxury-cars__card--price">
+                                $98,900
+                            </div>
+                            <div class="luxury-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="luxury-cars__card">
+                            <div class="luxury-cars__card--title">
+                                Tesla
+                            </div>
+                            <div class="luxury-cars__card--subtitle">
+                                Model 3
+                            </div>
+                            <div class="luxury-cars__card--img">
+                                <img src="./images/brands/cars/2.png" alt="car">
+                            </div>
+                            <div class="luxury-cars__card--price">
+                                $45,900
+                            </div>
+                            <div class="luxury-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="luxury-cars__card">
+                            <div class="luxury-cars__card--title">
+                                Audi
+                            </div>
+                            <div class="luxury-cars__card--subtitle">
+                                E-tron
+                            </div>
+                            <div class="luxury-cars__card--img">
+                                <img src="./images/brands/cars/3.png" alt="car">
+                            </div>
+                            <div class="luxury-cars__card--price">
+                                $175,900
+                            </div>
+                            <div class="luxury-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="luxury-cars__card">
+                            <div class="luxury-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="luxury-cars__card--subtitle">
+                                Boxster 987
+                            </div>
+                            <div class="luxury-cars__card--img">
+                                <img src="./images/brands/cars/4.png" alt="car">
+                            </div>
+                            <div class="luxury-cars__card--price">
+                                $126,900
+                            </div>
+                            <div class="luxury-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                        <div class="luxury-cars__card">
+                            <div class="luxury-cars__card--title">
+                                Porsche
+                            </div>
+                            <div class="luxury-cars__card--subtitle">
+                                Panamera
+                            </div>
+                            <div class="luxury-cars__card--img">
+                                <img src="./images/brands/cars/5.png" alt="car">
+                            </div>
+                            <div class="luxury-cars__card--price">
+                                $126,900
+                            </div>
+                            <div class="luxury-cars__card--bag">
+                                <img src="./images/slider/bag.svg" alt="bag">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers__inner">
+                    <div class="offers-content">
+                        <div class="offers-content__title">
+                            Do You Want To Receive
+                            Special Offers?
+                        </div>
+                        <div class="offers-content__text">
+                            Be the first to receive all the information about our products and new cars by email by
+                            subscribing to our mailing list.
+                        </div>
+                        <button class="offers-content__btn">
+                            Subscribe Now
+                        </button>
+                    </div>
+                    <div class="offers-img">
+                        <picture>
+                            <source srcset="./images/offers/car-mini.png" media="(max-width: 767px)">
+                            <source srcset="./images/offers/car-big.png" media="(min-width: 768px)">
+                            <img src="./images/offers/car-big.png" alt="car">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="logos">
+            <div class="container">
+                <div class="logos__inner">
+                    <img src="./images/logos/1.svg" alt="1">
+                    <img src="./images/logos/2.svg" alt="2">
+                    <img src="./images/logos/3.svg" alt="3">
+                    <img src="./images/logos/4.svg" alt="4">
+                    <img src="./images/logos/5.svg" alt="5">
+                    <img src="./images/logos/6.svg" alt="6">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-up">
+                    <div class="footer-up__header">
+                        <img src="./images/logo.svg" alt="logo">
+                        <div class="footer-up__text">
+                            We offer the best electric cars of the most recognized brands in the world.
+                        </div>
+                    </div> 
+                    <div class="footer-up__company">
+                        <div>Company</div>
+                        <div>About</div>
+                        <div>Cars</div>
+                        <div>History</div>
+                        <div>Shop</div>
+                    </div>
+                    <div class="footer-up__info">
+                        <div>Information</div>
+                        <div>Request a quote</div>
+                        <div>Find a dealer</div>
+                        <div>Contact us</div>
+                        <div>Services</div>
+                     </div>
+                     <div class="footer-up__socials">
+                        <div>Follow us</div>
+                        <img src="./images/footer/1.svg" alt="1">
+                        <img  class = "insta" src="./images/footer/2.svg" alt="2">
+                        <img src="./images/footer/3.svg" alt="3">
+                     </div>
+                </div>
+                <div class="footer-bottom">
+                    &copy; Bedimcode. All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+    .luxury-cars{
+
+        &__inner{
+            gap: 72px;
+            padding: 70px;
+        }
+        &__title{
+            line-height: 33.6px;
+            font-size: 24px;
+        }
+        &__brands{
+            
+            gap: 32px;
+        }
+    }
+    .luxury-cars__cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px;
+    }
+   
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+    .luxury-cars{
+
+        &__inner{
+            gap: 72px;
+            padding: 70px;
+        }
+        &__title{
+            line-height: 33.6px;
+            font-size: 24px;
+        }
+        &__brands{
+            
+            gap: 32px;
+        }
+    }
+    .luxury-cars__cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px;
+    }
+   
+
+}

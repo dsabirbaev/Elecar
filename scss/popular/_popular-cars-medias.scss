@@ -1,0 +1,59 @@
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .popular-cars {
+
+        &__inner {
+            padding: 72px 0;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 33.6px;
+            max-width: 278px;
+        }
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .popular-cars {
+
+        &__inner {
+            padding: 72px 0;
+            
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 33.6px;
+            max-width: 278px;
+            
+        }
+    }
+
+
+    .popular-cars__cards .slick-track {
+        //margin: 45px 0;
+
+        display: flex;
+        gap: 0px;
+    }
+
+}

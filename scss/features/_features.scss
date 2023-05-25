@@ -1,0 +1,24 @@
+
+
+.features{
+    &__inner{
+        background-image: url(../images/features/map-mini.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        padding-top: 56px;
+
+        position: relative;
+    }
+    &__title{
+        @include font-style(20px, $ff-ExoSemiBold, 600, $color-white);
+        line-height: 28px;
+        text-align: center;
+    }
+
+    &__img{
+        position: absolute;               /* 2 */
+        top: 20%;                         /* 3 */
+        transform: translate(50%, 0%) 
+    }
+}

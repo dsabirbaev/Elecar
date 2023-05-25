@@ -1,0 +1,143 @@
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .best-car {
+
+        &__inner {
+            padding-top: 72px;
+            padding-bottom: 26px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 36px;
+            line-height: 50.4px;
+            margin-bottom: 20px;
+        }
+
+        &__content {
+            gap: 8px;
+        }
+
+        &__model {
+            font-size: 24px;
+            line-height: 33.6px;
+        }
+
+        &__type {
+            font-size: 16px;
+        }
+
+        &__features {
+            width: 100%;
+            max-width: 406px;
+        }
+
+        &__start {
+            font-size: 14px;
+            line-height: 19.6px;
+        }
+    }
+
+    .whiteflash1 {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: -198px;
+        top: -50px;
+        background: rgba(55, 74, 109, 0.5);
+        filter: blur(90px);
+    }
+
+    .whiteflash2 {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 961px;
+        top: 382px;
+        background: rgba(55, 74, 109, 0.5);
+        filter: blur(90px);
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .best-car {
+
+        &__inner {
+            padding-top: 72px;
+            padding-bottom: 26px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 36px;
+            line-height: 50.4px;
+            margin-bottom: 20px;
+        }
+
+        &__content {
+            gap: 8px;
+        }
+
+        &__model {
+            font-size: 24px;
+            line-height: 33.6px;
+        }
+
+        &__type {
+            font-size: 16px;
+        }
+
+        &__features {
+            width: 100%;
+            max-width: 406px;
+        }
+
+        &__start {
+            font-size: 14px;
+            line-height: 19.6px;
+        }
+    }
+
+    .whiteflash1 {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: -198px;
+        top: -50px;
+        background: rgba(55, 74, 109, 0.5);
+        filter: blur(90px);
+    }
+
+    .whiteflash2 {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 961px;
+        top: 382px;
+        background: rgba(55, 74, 109, 0.5);
+        filter: blur(90px);
+    }
+
+}

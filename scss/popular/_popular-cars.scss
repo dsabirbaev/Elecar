@@ -1,0 +1,115 @@
+.popular-cars {
+    &__inner {
+        @include flex(column, $gap:56px);
+        padding: 56px 0;
+    }
+
+    &__title{
+        @include font-style(20px, $ff-ExoSemiBold, 600, $color-white);
+        line-height: 28px;
+        max-width: 232px;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+}
+
+
+.popular-cars__cards{
+    padding: 10px 0;
+    
+    .popular-cars__card{
+        position: relative;
+        min-height: 303px;
+        max-width: 228px;
+        border: 1px solid $color-black;
+        padding: 32px 24px;
+        &--title{
+            @include font-style(20px, $ff-ExoSemiBold, 600, $color-white);
+            line-height: 28px;
+        }
+        &--subtitle{
+            @include font-style(15px, $ff-ExoRegular, 400, $color-white);
+            line-height: 21px;
+            margin-bottom: 12px;
+        }
+        &--img{
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        &--charac{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            @include font-style(12px, $ff-ExoRegular, 400, $color-white);
+            div{
+                display: flex;
+                align-items: center;
+            }
+            img{
+                margin-right: 4px;
+            }
+        }
+        &--elec{
+            @include font-style(12px, $ff-ExoRegular, 400, $color-white);
+            line-height: 16.8px;
+            display: flex;
+            gap: 5px;
+            margin-bottom: 30px;
+        }
+
+        &--price{
+            @include font-style(16px, $ff-ExoSemiBold, 600, $color-white);
+            line-height: 22.4px;
+        }
+        &--bag{
+            background-color: $color-blue;
+            padding: 12px 16px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 16px 0px;
+        }
+    }
+
+}
+
+
+// settings for slides
+
+.popular-cars__cards .slick-slide {
+    margin: 0 30px;
+   // @include flex(column, $gap:20px);
+    border-radius: 16px;
+}
+
+.popular-cars__cards .slick-track{
+	//margin: 45px 0;
+    
+    display: flex;
+    gap: 50px;
+}
+
+
+// Dots 
+.popular-cars__cards .slick-dots{
+    @include flex(row, center, center);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.popular-cars__cards .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.popular-cars__cards .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: $color-text-grey;
+    border-radius: 50%;
+}
+.popular-cars__cards .slick-dots li.slick-active button{
+    background-color: $color-blue;
+}

@@ -1,0 +1,53 @@
+@import 'variables',
+        'mixins',
+        'fonts';
+
+
+
+body{
+    background-color: $color-body;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.main{
+    position: relative;
+}
+
+
+
+.container {
+    padding: 0 24px;
+    //border: 1px solid red;
+}
+
+
+input[type="checkbox"] {
+    display:none;
+}
+
+@import './header/header';
+@import './header/header-medias';
+
+@import './bestcar/bestcar';
+@import './bestcar/bestcar-medias';
+
+@import './about/about';
+@import './about/about-medias';
+
+@import './popular/popular-cars';
+
+@import './features/features';
+@import './features/features-media';
+
+@import './luxurycars/luxury-cars';
+@import './luxurycars/luxury-cars-medias';
+
+@import './offers/offers';
+@import './offers/offers-medias';
+
+@import './logos/logos';
+@import './logos/logos-medias';
+
+@import './footer/footer';
+@import './footer/footer-medias';

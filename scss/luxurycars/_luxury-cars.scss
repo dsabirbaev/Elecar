@@ -1,0 +1,79 @@
+
+
+
+.luxury-cars{
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+    }
+    &__title{
+        @include font-style(20px, $ff-ExoSemiBold, 600, $color-white);
+        line-height: 28px;
+        text-align: center;
+    }
+
+    &__brands{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    &__brand{
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        border: 1px solid $color-text-grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-white;
+
+        &:first-child{
+            background-color: $color-blue;
+        }
+    }
+}
+
+.luxury-cars__cards{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     .luxury-cars__card{
+        border-radius: 16px;
+        position: relative;
+        min-height: 279px;
+        max-width: 228px;
+        border: 1px solid $color-black;
+        padding: 32px 15px;
+        &--title{
+            @include font-style(20px, $ff-ExoSemiBold, 600, $color-white);
+            line-height: 28px;
+        }
+        &--subtitle{
+            @include font-style(15px, $ff-ExoRegular, 400, $color-white);
+            line-height: 21px;
+            margin-bottom: 12px;
+        }
+        &--img{
+            margin: 0 auto;
+            margin-bottom: 26px;
+        }
+    
+        &--price{
+            @include font-style(16px, $ff-ExoSemiBold, 600, $color-white);
+            line-height: 22.4px;
+        }
+        &--bag{
+            background-color: $color-blue;
+            padding: 12px 16px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 16px 0px;
+        }
+    }
+
+}

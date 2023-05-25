@@ -1,0 +1,94 @@
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .offers {
+
+        &__inner {
+            padding: 60px;
+            flex-direction: row;
+            gap: 50px;
+            align-items: flex-end;
+            
+        }
+    }
+
+    .offers-content {
+        justify-content: flex-start;
+        align-items: flex-start;
+        &__title {
+            font-size: 24px;
+            line-height: 20px;
+            max-width: 312px;
+            text-align: start;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 18px;
+            max-width: 400px;
+            text-align: start;
+        }
+        &__btn {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .offers-img{
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .offers {
+
+        &__inner {
+            padding: 60px;
+            flex-direction: row;
+            gap: 80px;
+           
+        }
+    }
+
+    .offers-content {
+        justify-content: flex-start;
+        align-items: flex-start;
+        &__title {
+            font-size: 24px;
+            line-height: 33.6px;
+            max-width: 312px;
+            text-align: start;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 22.4px;
+            max-width: 400px;
+            text-align: start;
+        }
+        &__btn {
+            font-size: 16px;
+            line-height: 22.4px;
+        }
+    }
+
+}

@@ -1,0 +1,100 @@
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+
+    .footer{
+        &__inner{
+            padding-top: 72px;
+            padding-bottom: 32px;
+            gap: 98px;
+            overflow: hidden;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                left: -318px;
+                top: 0px;
+                
+                background: rgba(55, 74, 109, 0.5);
+                filter: blur(90px);
+            }
+    
+            &::after {
+                content: "";
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                left: 1024px;
+                top: 137px;
+                
+                background: rgba(55, 74, 109, 0.5);
+                filter: blur(90px);
+            }
+        }
+        &-up{
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+
+    .footer{
+        &__inner{
+            padding-top: 72px;
+            padding-bottom: 32px;
+            gap: 98px;
+            overflow: hidden;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                left: -318px;
+                top: 0px;
+                
+                background: rgba(55, 74, 109, 0.5);
+                filter: blur(90px);
+            }
+    
+            &::after {
+                content: "";
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                left: 1024px;
+                top: 137px;
+                
+                background: rgba(55, 74, 109, 0.5);
+                filter: blur(90px);
+            }
+        }
+        &-up{
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0;
+        }
+    }
+
+}

@@ -1,0 +1,82 @@
+.footer {
+   
+    &__inner {
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        position: relative;
+        overflow: hidden;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            left: -176px;
+            top: 119px;
+
+            background: rgba(55, 74, 109, 0.5);
+            filter: blur(90px);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            left: 280px;
+            top: 550px;
+            background: rgba(55, 74, 109, 0.5);
+            filter: blur(90px);
+        }
+    }
+}
+
+.footer-up {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &__header {}
+
+    &__text {
+        @include font-style(13px, $ff-ExoRegular, 400, $color-text-grey);
+        line-height: 18.2px;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    &__company,
+    &__info {
+        @include font-style(15px, $ff-ExoRegular, 400, $color-text-grey);
+        line-height: 21px;
+
+        div:first-child {
+            color: $color-white;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+
+    &__socials {
+        @include font-style(15px, $ff-ExoRegular, 400, $color-text-grey);
+        line-height: 21px;
+
+        div:first-child {
+            color: $color-white;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+.insta {
+    margin: 0 24px;
+}
+
+
+.footer-bottom {
+    @include font-style(15px, $ff-ExoRegular, 400, $color-text-grey);
+    line-height: 16.8px;
+    text-align: center;
+}

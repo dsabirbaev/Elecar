@@ -1,0 +1,45 @@
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .logos{ 
+        &__inner{
+            padding: 60px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            gap: 60px;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1024px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+
+    .logos{ 
+        &__inner{
+            padding: 60px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            gap: 60px;
+        }
+    }
+
+}
